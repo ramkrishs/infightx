@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>InFlight</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card">
+            <form method="post" name="addflight">
+              <div class="card-block" style="background: #eceeef;">
+                <h4 class="card-title display-4">Add Flights</h4>
+                <h6 class="card-subtitle text-muted lead">add the flight info to club all the fly information</h6>
+              </div>
+              
+              <div class="card-block">
+                <div class="input-group">
+                  <span class="input-group-addon " id="basic-addon3">Confirm  No </span>
+                  <input type="text" id="confirmCode" name="confirmCode" class="form-control" >
+                </div>
+                <br>
+                <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon3">Departure</span>
+                  <input type="text" id="fromLocation" name="fromLocation" class="form-control"  >
+                </div>
+                <br>
+                <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon3">Arrival</span>
+                  <input type="text" id="toLocation" name="toLocation" class="form-control" >
+                </div>
+                <br>
+                <br>
+                <input type="hidden" id="username" name="username" value="ram">
+                <button type="button" id="submit-flight" class="btn btn-success btn-block btn-lg">Add Details</button>
+              </div>
+              </form>
+            </div>
+                
+                
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://tc16n.panasonic.aero/inflight.js"></script>
+    <script src="js/addflight.js"></script>
+</body>
+</html>

@@ -1,12 +1,5 @@
 (function () {
-    var x = "Hello!!";
-
     
-    // $( "#getOutBtn" ).click(function() {
-    //     $('#teams').html("");
-    //     getDefectOutCount();
-    // });
-console.log(x);
 InFlight.initService('catalogs/shopping/v1', function(ShoppingCatalogs) {
    ShoppingCatalogs.categoryItems(
     {
@@ -34,41 +27,6 @@ InFlight.initService('catalogs/shopping/v1', function(ShoppingCatalogs) {
 });
 
 })();
-
-
-// function getDefectOutCount() {
-//     // var age = $('#age').val();
-//     // var product = $('#product').val();
-//     // var version = $('#version').val();
-
-//     var res = $.ajax({
-//         type: "GET",
-//         url: '',
-//         contentType: 'application/x-www-form-urlencoded; charset=UTF-8'
-        
-//     })
-//         .done(function(data)
-//         {
-
-//             alert( "You have successfully done" );
-//             // $.each(data.incidents, function(idx, obj) {
-//             //     var result = '<a class="list-group-item " target="_blank" href="'+ obj.INCIDENT + '">';
-//             //     result += '<h4 class="list-group-item-heading">' + obj.INCIDENT + '</h4>';
-//             //     result += '<p class="list-group-item-text">';
-//             //     result += '<div id="defect-state">' + obj.OUTCOUNT + '</div>';
-//             //     result += '<div id="defect-description">' + obj.ABSTRACT +'</div>';
-//             //     result += '<div id="defect-description">' + obj.timeline +'</div>';
-//             //     result += '</p></a>';
-//             //     $('#teams').append(result);
-//             // });
-//             console.log(data);
-            
-//         })
-//         .fail(function(data)
-//         {
-//             console.log(data);
-//         });
-// }
 
 
 
