@@ -28,7 +28,7 @@ function getformData() {
 
     var res = $.ajax({
         type: "POST",
-        url: 'http://localhost:8084/inflightrest/rest/addflight',
+        url: 'http://45.55.207.137:8080/inflight/rest/addflight',
         contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
         data: { username: username,confirmCode: confirmCode,toLocation:toLocation, fromLocation:fromLocation}
         
