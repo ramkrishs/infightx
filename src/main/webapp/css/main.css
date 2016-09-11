@@ -1,0 +1,170 @@
+.alchemy-list-items {
+    height: auto;
+    min-height: 200px;
+    float: left;
+    width: 100%;
+
+    margin-bottom:5px;
+
+}
+.list-group-item-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size:2em;
+}
+.Box {
+    position: relative;
+    padding: 2rem;
+    border: 2px solid #f1f1f1;
+    border-radius: 3px;
+}
+.alchemy-list-items .col-md-3 {
+    height: 100%;
+}
+.alchemy-team-img {
+    width: 100%;
+}
+.alchemy-team-sub-img{
+    width:50px;
+}
+.alchemy-list-items .col-md-9 {
+    padding-right: 10px;
+}
+.alchemy-list-items .btn {
+    font-size: 80%;
+    width: 100px;
+}
+.btn {
+    border-radius: 0px;
+    transition: .5s background-color ease-out !important;
+}
+.sub-title{
+    padding-top:10px;
+}
+.edits{
+    padding: 40px;
+}
+.hr-custom {
+    width: 120%;
+}
+.btn-center{
+	padding-left:25%;
+}
+.alchemy-list-items hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #F33F3F;
+}
+.fa{
+        color: #607D8B;
+}
+
+.coins{
+    width:50px;
+    height:auto;
+}
+.streams{
+    margin-left:18%;
+}
+.p4label{
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 131px;
+}
+.p4input{
+ padding-left: 15px;
+   
+}
+.modal{
+    width:600px;
+}
+.accordion{
+    width:107%;
+}
+.accordion-heading{
+    border: 1px solid #e5e5e5;
+}
+.accordion-group{
+    border:none;
+    width:105%;
+}
+.jumbotron{
+    font-family:Lato;
+    font-weight:400;
+}
+.jumbotron h1{
+    font-size:3.5em;
+}
+.jumbotron .lead {
+    font-weight:300;
+}
+.alchemy-color{
+    color:#F33F3F;
+}
+
+.row-custom{
+    /* border-bottom: 1px solid #aaaa; */
+    margin-top:5px;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+.bulb-img{
+    width:80px;
+}
+.sub-img{
+    width:100px;
+}
+.bulb-img-small{
+    padding-top:35px;
+    width:50px;
+}
+.idea-img-small{
+    width:80px;
+    padding-top:35px;
+}
+.row-custom .fa{
+    color:#aaa;
+}
+.fa-5{
+    font-size:7em !important; 
+}
+.idea-count{
+    position: relative;
+    left: 19px;
+}
+#teamDeascription{
+    margin: 0px; width: 687px; height: 219px;
+}
+#teamEmailAddress{
+    margin: 0px; width: 687px; height: 80px;
+}
+.modal-body
+{
+   max-height:550px;
+   padding:25px;
+   padding-top:5px;
+}
+.modal-footer{
+    position: absolute;
+    bottom: 0;
+    width: 96.6%;
+}
+.modal
+{
+   height:80%;
+   width:70%;
+   margin-left: -35%; 
+}
+@media (max-width: 768px) {
+   .modal
+   {
+    width:90%;
+        margin-left: 2%; 
+   }
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+border: solid #969696 1px;
+}
