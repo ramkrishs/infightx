@@ -173,3 +173,7 @@ border: solid #969696 1px;
 width: 110px;
 }
 
+#map {
+    height:800px;
+    width: 800px;
+}

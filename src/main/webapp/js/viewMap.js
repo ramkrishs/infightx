@@ -50,17 +50,20 @@ function getformData() {
                 map = L.map('map', {
                     layers: MQ.mapLayer()
                 });
-
+                var corridorLayer = new L.LayerGroup();
+                map.addLayer(corridorLayer)
                 for (i = 0; i < results.length; i++) {
                     result = results[i].best;
                     latlng = result.latlng;
-
+                    var latLngs = [];
                     for (prop in result) {
                         r = result[prop];
+                        var latLngPair = new L.latLng(r.lat, r.lng);    
+                        latLngs.push(latLngPair);
 
                         if (prop === 'displayLatLng') {
                             val = r.lat + ', ' + r.lng;
-
+                        
                         } else if (prop === 'mapUrl') {
                             val = '<br /><img src="' + r + '" />';
 
@@ -69,8 +72,10 @@ function getformData() {
                         }
                        
                     }
-
-
+                     var line = L.polyline(latLngs);    
+                     
+                     map.addLayer(corridorLayer);
+                     map.fitBounds(line.getBounds());
                     // create POI markers for each location
                     marker = L.marker([ latlng.lat, latlng.lng ])
                           .bindPopup(result.adminArea5 + ', ' + result.adminArea3);
